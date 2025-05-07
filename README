@@ -1,0 +1,8 @@
+Instructions:
+
+1. Run the AdventureWorks_MySQL.sql and dim_date_sql.sql scripts. This will create the adventureworks database and its date dimension table in MySQL.
+2. In FinalProject.ipynb, replace the mysql_args and mongodb_args with your respective arguments.
+3. Run the FinalProject.ipynb file.
+
+Notes:
+All required JSON and CSV files are created in FinalProject.ipynb. They are also included under data/adeventureworks. The 'batch' folder has any local data files used; the 'mongodb' folder has any JSON files that are supposed to be in MongoDB, and the 'streaming' folder has the streaming data stored as three separate JSON files.
